@@ -24,5 +24,5 @@ jobs:
         run: |
           zip function.zip data_ingest_lambda.py
           aws lambda update-function-code \
-            --function-name data-ingest-lambda_1 \
+            --function-name data-ingest-lambda1 \
             --zip-file fileb://function.zip
